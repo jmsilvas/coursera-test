@@ -2,7 +2,9 @@
 * {
   box-sizing: border-box;
   font-size: 14px;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: Lucida Sans Unicode, Lucida Grande, sans-serif	;
+  
+
 }
 h1 {
   margin-bottom: 15px;
@@ -22,6 +24,12 @@ section {
   margin-top: 30px;
   overflow: hidden;
   text-align: left;
+}
+
+body{
+  background-image: url('../DJI_0695.JPG');
+  background-size: cover;
+  background-color: brown;
 }
 
 p {
