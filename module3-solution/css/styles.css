@@ -1,0 +1,52 @@
+#main-content{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.container-fluid {
+    background-color: lightgray;
+}
+
+.row {
+    margin-top: 40px;
+}
+
+.row>div {
+    background-color: lightgray;
+    margin-bottom: 30px;
+    padding: 20px 50px 20px 50px;
+}
+
+p{
+    font-size: 1.6em;
+}
+
+
+h3 {
+    font-weight: bold;
+    font-size: 1.9em;
+}
+
+li {
+    background-color: white;
+    margin: 5px 5px 5px 5px;
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
+@media (max-width: 767px) {
+    p{ 
+        font-size: 1.3em;
+    }
+
+    .row>div {
+        padding: 10px 25px 10px 25px;
+    }
+}
